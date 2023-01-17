@@ -20,9 +20,9 @@ echo '<br><br>';
 
 echo 'Afficher un element du tableau (l\'index d\'un tableau commence à 0)';
 echo '<br>';
-echo 'Le fruit a la 1er position dans le tableau '.$fruits[0].'<br>';
-echo 'Le fruit a la 2eme position dans le tableau '.$fruits[1].'<br>';
-echo 'Le fruit a la 3eme position dans le tableau '.$fruits[2];
+print_r($fruits[0]);
+print_r($fruits[1]);
+print_r($fruits[2]);
 echo '<br><br>';
 
 //----------------------------------------
